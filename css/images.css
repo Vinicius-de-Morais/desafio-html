@@ -1,0 +1,53 @@
+.carousel {
+  position: relative;
+  margin: 0 auto;
+  width: 100%;
+  height: 400px;
+}
+
+.carousel-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.carousel-item {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transition: ease-in-out;
+}
+
+.carousel-item img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.content {
+  margin-top: 10px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.carousel-caption {
+  position: relative;
+  margin: 0 auto;
+
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 20px;
+  width: max-content;
+  height: max-content;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: #fff;
+}
+
+#title {
+  margin-top: 20px;
+  margin-left: 30px;
+}
